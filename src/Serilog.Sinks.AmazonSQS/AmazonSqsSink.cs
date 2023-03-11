@@ -38,6 +38,6 @@ public class AmazonSqsSink : ILogEventSink
             QueueUrl = _queueUrl
         };
 
-        sqsClient.SendMessageAsync(sendRequest);
+        sqsClient.SendMessageAsync(sendRequest).SyncContextSafeWait();
     }
 }
