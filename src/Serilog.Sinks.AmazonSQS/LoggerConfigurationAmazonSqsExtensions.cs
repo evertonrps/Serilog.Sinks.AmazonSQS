@@ -5,7 +5,7 @@ namespace Serilog.Sinks.AmazonSQS;
 public static class LoggerConfigurationAmazonSqsExtensions
 {
     private const string DefaultOutputTemplate =
-        "[{Timestamp:HH:mm:ss} {Level:u3} {Message:lj} {Properties}{NewLine}{Exception}{NewLine}";
+        "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} {Properties}{NewLine}{Exception}{NewLine}";
 
     public static LoggerConfiguration AmazonSQS(
         this LoggerSinkConfiguration sinkConfiguration,

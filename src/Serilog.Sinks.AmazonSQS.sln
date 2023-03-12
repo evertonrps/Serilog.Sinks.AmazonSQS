@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.AmazonSQS", "Serilog.Sinks.AmazonSQS\Serilog.Sinks.AmazonSQS.csproj", "{C224B241-97F2-4B42-BBE4-A30FB485A1A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ConsoleApp", "samples\Sample.ConsoleApp\Sample.ConsoleApp.csproj", "{E61D9F4A-F179-481B-A443-97717DEB6D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.API", "samples\Sample.API\Sample.API.csproj", "{0892FF29-B768-4F9F-8EC0-34A538AC2FD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{C224B241-97F2-4B42-BBE4-A30FB485A1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C224B241-97F2-4B42-BBE4-A30FB485A1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C224B241-97F2-4B42-BBE4-A30FB485A1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61D9F4A-F179-481B-A443-97717DEB6D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61D9F4A-F179-481B-A443-97717DEB6D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61D9F4A-F179-481B-A443-97717DEB6D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61D9F4A-F179-481B-A443-97717DEB6D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0892FF29-B768-4F9F-8EC0-34A538AC2FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0892FF29-B768-4F9F-8EC0-34A538AC2FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0892FF29-B768-4F9F-8EC0-34A538AC2FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0892FF29-B768-4F9F-8EC0-34A538AC2FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
