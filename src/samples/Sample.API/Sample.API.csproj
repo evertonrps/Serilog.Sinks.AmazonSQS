@@ -13,6 +13,12 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Content Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
         <ProjectReference Include="..\..\Serilog.Sinks.AmazonSQS\Serilog.Sinks.AmazonSQS.csproj"/>
     </ItemGroup>
 
