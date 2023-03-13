@@ -7,6 +7,9 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>Everton Rocha</Authors>
         <Description>Send logs to Amazon Simple Queue Service (SQS)</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>serilog sqs</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,16 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Compile Remove="Class1.cs"/>
-        <Compile Remove="obj\**"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <EmbeddedResource Remove="obj\**"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <None Remove="obj\**"/>
-    </ItemGroup>
-
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>    
 </Project>
